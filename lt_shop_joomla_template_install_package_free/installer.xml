@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="plugin" group="system" method="upgrade">
+    <name>LT Shop</name>
+    <description>LT Shop Joomla! template - &lt;a target='_blank' href='https://doc.ltheme.com/joomla-4-free-template-document/'&gt;See Template Document&lt;/a&gt; | &lt;a target='_blank' href='https://ltheme.com/project/lt-shop-free-online-store-hikashop-joomla-template/#lt-choose-plan'&gt;Get PRO license&lt;/a&gt; to access &lt;a target='_blank' href='https://j4demo2.ltheme.com/joomla/lt-shop/'&gt;Full version as LIVE DEMO&lt;/a&gt; | We recommend the &lt;a target='_blank' href='https://extensions.joomla.org/extension/3cx-live-chat/'&gt;3CX extension&lt;/a&gt; as a free Live Chat tool for Joomla! website. You can &lt;a target='_blank' href='https://www.3cx.com/startup/'&gt;Register 3CX Start Up Free&lt;/a&gt; and see &lt;a target='_blank' href='https://www.3cx.com/docs/joomla-live-chat/'&gt;How to configure 3CX&lt;/a&gt; from your Joomla! admin panel.</description>
+    <scriptfile>installer.script.php</scriptfile>
+    <files>
+		<filename plugin="tmp_helixult">installer.script.php</filename>
+    </files>
+    <plugins>
+        <plugin plugin="helixultimate" group="system" />
+    </plugins>
+    <template name="lt_shop"/>
+</extension>
